@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.AdaptivePerformance;
 
@@ -9,6 +10,7 @@ public class Temeller : MonoBehaviour
 
     [SerializeField] public int say1;
     [SerializeField] public int say2;
+    [SerializeField] public int Not;
 
 
     void Start()
@@ -142,6 +144,45 @@ public class Temeller : MonoBehaviour
         Debug.Log(ondaliklisayi);
         Debug.Log((int)ondaliklisayi);
         */
+
+        // Karar Yapýlarý
+        /*
+        int yas = 5;
+        if (yas>=18)
+        {
+            Debug.Log("Yetiþkindir.");
+        }
+        else
+        {
+            Debug.Log("Yetiþkin Deðildir.");
+        }
+        */
+
+        // Ders not ortalamasý
+
+        if (Not <= 44) 
+        {
+            Debug.Log("1");
+        }
+        else if (Not < 54)
+        {
+            Debug.Log("2");
+        }
+        else if (Not < 69)
+        {
+            Debug.Log("3");
+        }
+        else if (Not < 84)
+        {
+            Debug.Log("4");
+        }
+        else if (Not < 100)
+        {
+            Debug.Log("5");
+        }
+
+
+
 
 
 
