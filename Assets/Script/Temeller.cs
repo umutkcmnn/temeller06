@@ -11,6 +11,15 @@ public class Temeller : MonoBehaviour
     [SerializeField] public int say1;
     [SerializeField] public int say2;
     [SerializeField] public int Not;
+    [SerializeField] public int Sýnav1;
+    [SerializeField] public int Sýnav2;
+    [SerializeField] public int Performans;
+    [SerializeField] public int Acý1;
+    [SerializeField] public int Acý2;
+    [SerializeField] public int Acý3;
+    [SerializeField] public int Bagajkýlo;
+    [SerializeField] public string secým;
+   
 
 
     void Start()
@@ -159,27 +168,127 @@ public class Temeller : MonoBehaviour
         */
 
         // Ders not ortalamasý
-
+        /*
         if (Not <= 44) 
         {
             Debug.Log("1");
         }
-        else if (Not < 54)
+        else if (Not <=54)
         {
             Debug.Log("2");
         }
-        else if (Not < 69)
+        else if (Not <=69)
         {
             Debug.Log("3");
         }
-        else if (Not < 84)
+        else if (Not <=84)
         {
             Debug.Log("4");
         }
-        else if (Not < 100)
+        else if (Not <=100)
         {
             Debug.Log("5");
         }
+        */
+
+        //Baþarýlý - Baþarýsýz Çýktýlarý.
+        /*
+        int toplam = Sýnav1 + Sýnav2 + Performans;
+        int ortalama = toplam / 3;
+        if (ortalama >= 50)
+        {
+            Debug.Log("Baþarýlý");
+        }
+        else if (ortalama <= 50)
+        {
+            Debug.Log("Baþarýsýz");
+        }
+        */
+
+        // Üçgen iç Açýlarý
+        /*
+        int toplam = Acý1 + Acý2 + Acý3;
+        if (toplam == 180)
+        {
+            Debug.Log("Bu bir üçgendir");
+        }
+        else if (toplam != 180)
+        {
+            Debug.Log("Bu bir üçgen deðildir.");
+        }
+        */
+
+        // Bagaj Kilo
+        /*
+        int aradakitutar = Bagajkýlo - 20;
+        if (Bagajkýlo <=20)
+        {
+            Debug.Log("Herhangi bir ücret ödemeniz gerekmemektedir.");
+        }
+        else 
+        {
+            aradakitutar *= 10;
+            Debug.Log("Ödemeniz gereken tutar : " + aradakitutar + "TL");
+        }
+        */
+
+        // switch-case
+        /*
+        int sonuc = 0;
+        switch (secým)
+        {
+            case "+":
+                sonuc = say1 + say2;
+                Debug.Log("sonuc : " + sonuc);
+                break;
+            case "-":
+                sonuc = say1 - say2;
+                Debug.Log("sonuc : " + sonuc);
+                break;
+            case "/":
+                sonuc = say1 / say2;
+                Debug.Log("sonuc : " + sonuc);
+                break;
+            case "*":
+                sonuc = say1 * say2;
+                Debug.Log("sonuc : " + sonuc);
+                break;
+
+        }
+        */
+
+        // Haftanýn günleri
+        /*
+        switch (secým)
+        {
+            case "1":
+                Debug.Log("Bugün günlerden PAZARTESÝ");
+                break;
+            case "2":
+                Debug.Log("Bugün günlerden SALI");
+                break;
+            case "3":
+                Debug.Log("Bugün günlerden ÇARÞAMBA");
+                break;
+            case "4":
+                Debug.Log("Bugün günlerden PERÞEMBE");
+                break;
+            case "5":
+                Debug.Log("Bugün günlerden CUMA");
+                break;
+            case "6":
+                Debug.Log("Bugün günlerden CUMARTESÝ");
+                break;
+            case "7":
+                Debug.Log("Bugün günlerden PAZAR");
+                break;
+            default:
+                Debug.Log("Geçersiz Gün");
+                break;
+        }
+        */
+
+
 
 
 
