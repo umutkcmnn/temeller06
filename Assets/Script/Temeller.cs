@@ -67,8 +67,38 @@ public class Temeller : MonoBehaviour
         */
 
         //Biraz dinamikleþtirelim.
-        int toplam2 = say1 + say2;
-        Debug.Log("Girdiðiniz sayýlarýn toplamý :" + toplam2);
+        // int toplam2 = say1 + say2;
+        // Debug.Log("Girdiðiniz sayýlarýn toplamý :" + toplam2);
+
+        // Tekli Operatörler x++ , x-- , ++x , --x
+        // x++ : x = x+1
+        // x-- : x = x-1
+        // ++x : Deðere +1 ekler
+        /*
+        int puan = 0;
+        puan++;//1
+        puan++;//2
+        puan++;//3
+        puan--;//2
+        puan--;//1
+        ++puan;//2
+        --puan;//1
+        Debug.Log("Puanýnýz : " + puan);
+        */
+
+        // Atama Operatörü = , += , -= , /= , *=
+        /*
+        int score;// score adýnda bir deðiþken tanýmladýk.
+        score = 10;// score deðiþkenine 10 sayýsýný atadýk.
+        score += 10;// score = score + 10
+        score -= 5;// score = score - 5
+        score *= 2;// score = score * 2
+        score /= 5;// score = score / 5
+        Debug.Log("Skorumuz : " + score);
+        */
+
+
+
 
 
     }
