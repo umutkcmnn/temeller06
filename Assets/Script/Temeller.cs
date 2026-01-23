@@ -86,7 +86,7 @@ public class Temeller : MonoBehaviour
         Debug.Log("Puanýnýz : " + puan);
         */
 
-        // Atama Operatörü = , += , -= , /= , *=
+        // Atama Operatörü : = , += , -= , /= , *=
         /*
         int score;// score adýnda bir deðiþken tanýmladýk.
         score = 10;// score deðiþkenine 10 sayýsýný atadýk.
@@ -96,6 +96,23 @@ public class Temeller : MonoBehaviour
         score /= 5;// score = score / 5
         Debug.Log("Skorumuz : " + score);
         */
+
+        // Ýliþkisel Operatörler : < , > , <= , >= , != , ==
+        // != : Eþit Deðilse
+        // == : Eþitse
+        /*
+        int sayim1 = 28;
+        int sayim2 = 57;
+        Debug.Log(sayim1 < sayim2);
+        Debug.Log(sayim1 > sayim2);
+        Debug.Log(sayim1 <= sayim2);
+        Debug.Log(sayim1 >= sayim2);
+        Debug.Log(sayim1 != sayim2);
+        Debug.Log(sayim1 == sayim2);
+        */
+
+        
+
 
 
 
