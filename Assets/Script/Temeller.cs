@@ -42,6 +42,7 @@ public class Temeller : MonoBehaviour
         */
 
         // karakter tanýmlama
+
         /* char cinsiyet = 'E';
         Debug.Log("Cinsiyetiniz : " + cinsiyet);
         // Boolen tanýmlama    0,1   true , false
@@ -51,7 +52,9 @@ public class Temeller : MonoBehaviour
         */
 
         //Aritmetik Operatörler + , - , / , * , % (mod alma)
+
         // hard code
+
         /* int say1 = 55;
         int say2 = 20;
         int toplam = say1 + say2;
@@ -71,9 +74,11 @@ public class Temeller : MonoBehaviour
         // Debug.Log("Girdiðiniz sayýlarýn toplamý :" + toplam2);
 
         // Tekli Operatörler x++ , x-- , ++x , --x
+
         // x++ : x = x+1
         // x-- : x = x-1
         // ++x : Deðere +1 ekler
+
         /*
         int puan = 0;
         puan++;//1
@@ -87,6 +92,7 @@ public class Temeller : MonoBehaviour
         */
 
         // Atama Operatörü : = , += , -= , /= , *=
+
         /*
         int score;// score adýnda bir deðiþken tanýmladýk.
         score = 10;// score deðiþkenine 10 sayýsýný atadýk.
@@ -100,6 +106,7 @@ public class Temeller : MonoBehaviour
         // Ýliþkisel Operatörler : < , > , <= , >= , != , ==
         // != : Eþit Deðilse
         // == : Eþitse
+
         /*
         int sayim1 = 28;
         int sayim2 = 57;
@@ -111,9 +118,30 @@ public class Temeller : MonoBehaviour
         Debug.Log(sayim1 == sayim2);
         */
 
-        
+        // Mantýksal Operatörler && (ve sembolü) (and) , || (veya) , ! (deðil)
+        /*
+        string kullaniciAdi = "Umutkcmn";
+        string sifre = "265964";
+        Debug.Log(kullaniciAdi == "Umutkcmn" && sifre == "265964");
+        */
+        /*
+        string kullaniciAdi = "Umutkmn";
+        string sifre = "265964";
+        Debug.Log(kullaniciAdi == "Umutkcmnn" || sifre == "26596435606");
+        */
 
+        /*
+        int a = 5;
+        int b = 10;
+        Debug.Log(!(a == b));
+        */
 
+        // Tür Dönüþümleri (type casting)
+        /*
+        float ondaliklisayi = 10 / 3f;
+        Debug.Log(ondaliklisayi);
+        Debug.Log((int)ondaliklisayi);
+        */
 
 
 
