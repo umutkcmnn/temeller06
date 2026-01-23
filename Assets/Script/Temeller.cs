@@ -3,7 +3,14 @@ using UnityEngine.AdaptivePerformance;
 
 public class Temeller : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+
+    // Program baþladýðýnda 1 kez çalýþýr.
+
+    [SerializeField] public int say1;
+    [SerializeField] public int say2;
+
+
     void Start()
     {
         //print("Merhaba Unity'e Hoþgeldiniz.");
@@ -59,6 +66,9 @@ public class Temeller : MonoBehaviour
         Debug.Log(say1 + "'in " + say2 + "'ye bölümünden kalan : " + kalan);
         */
 
+        //Biraz dinamikleþtirelim.
+        int toplam2 = say1 + say2;
+        Debug.Log("Girdiðiniz sayýlarýn toplamý :" + toplam2);
 
 
     }
