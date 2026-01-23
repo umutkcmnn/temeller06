@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 256a1d336af74eb4db525599da8d3646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Temeller
-  say1: 1
+  say1: 0
   say2: 100
   Not: 0
   "S\u0131nav1": 0

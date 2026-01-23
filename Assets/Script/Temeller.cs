@@ -20,7 +20,7 @@ public class Temeller : MonoBehaviour
     [SerializeField] public int Bagajkýlo;
     [SerializeField] public string secým;
    
-
+   
 
     void Start()
     {
@@ -288,12 +288,42 @@ public class Temeller : MonoBehaviour
         }
         */
 
+        // Döngü Hakkýnda !!
+        /*
+        for (int i = 1 ; i < 10; i++)
+        {
+            Debug.Log(i + "Merhaba");
 
+        }
+        */
 
+        // Deneme Döngü
+        /*
+        int toplam = 0;
 
+        for (int i = say1 ; i <= say2; i++)
+        {
+            toplam += i;
+            Debug.Log("Þu andaki sayý : " + i);
 
+        }
+        Debug.Log("Toplam sonuç : " + toplam);
+        */
 
-
+        // BOM OYUNU
+        /*
+        for (int i = say1 ; i < say2 ; i++)
+        {
+            if (i % 5 == 0)
+            {
+                Debug.Log("Bom");
+            }
+            else
+            {
+                Debug.Log(i);
+            }
+        }
+        */
 
 
     }
