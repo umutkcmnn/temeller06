@@ -8,7 +8,7 @@ public class Temeller : MonoBehaviour
 
     // Program baþladýðýnda 1 kez çalýþýr.
 
-    [SerializeField] public int say1;
+   /* [SerializeField] public int say1;
     [SerializeField] public int say2;
     [SerializeField] public int Not;
     [SerializeField] public int Sýnav1;
@@ -19,8 +19,10 @@ public class Temeller : MonoBehaviour
     [SerializeField] public int Acý3;
     [SerializeField] public int Bagajkýlo;
     [SerializeField] public string secým;
-   
-   
+   */
+    [SerializeField] public int girilensayý;
+
+
 
     void Start()
     {
@@ -324,6 +326,31 @@ public class Temeller : MonoBehaviour
             }
         }
         */
+
+        // While Döngüsü
+        /*
+        int i = 1;
+        while (i <= 10)
+        {
+            Debug.Log(i);
+            i++; i = i + 1;
+        }
+        */
+
+        // Faktoriyel Örnek
+        /*
+        int result = 1;
+        int i = 1;
+        while (i <= girilensayý)
+        {
+            result *= i;
+            i++;
+   
+        }
+           Debug.Log("Sayýnýn Faktoriyeli : " + result);
+        */
+
+
 
 
     }

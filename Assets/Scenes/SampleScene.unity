@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Temeller
   say1: 1
-  say2: 100
+  say2: 5000
   Not: 0
   "S\u0131nav1": 0
   "S\u0131nav2": 0
@@ -445,6 +445,7 @@ MonoBehaviour:
   "Ac\u01313": 0
   "Bagajk\u0131lo": 0
   "sec\u0131m": 
+  "girilensay\u0131": 5
 --- !u!1001 &1271015627
 PrefabInstance:
   m_ObjectHideFlags: 0
