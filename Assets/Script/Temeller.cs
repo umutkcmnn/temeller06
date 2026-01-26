@@ -425,19 +425,40 @@ public class Temeller : MonoBehaviour
         }
         */
 
+        // METODLAR
+        /*
+        for (int i = 0; i < 10; i++)
+        {
+            Ilkfonksýyonum();
+        }
+        */
 
-
-
-
-
-
-
-
-
+        /*
+        SayilariTopla(5, 8);
+        */
     }
+    /// <summary>
+    /// Bu metod parametre almayan ve deðer döndürmeyen metoddur.
+    /// </summary>
+    /// 
+    void Ilkfonksýyonum()
+        {
+           print("Merhabalar ben Ilkfonksýyonumdan geliyorum");
+        }
+    /// <summary>
+    /// Burada parametre alan deðer döndürmeyen bir meto oluþturduk.
+    /// </summary>
 
-    // Update is called once per frame
-    void Update()
+    void SayilariTopla(int a , int b)
+    {
+        print("Sayýlarýn Toplamý : " + (a + b));
+    }
+        
+
+
+
+// Update is called once per frame (SAHNE HER GÜNCELLENDÝÐÝNDE ÇALIÞIR !!)
+void Update()
     {
        // Debug.Log("Ekrana mesaj verdiriyoruz.Daha geliþmiþ bir kod.");
     }
