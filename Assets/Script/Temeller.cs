@@ -350,6 +350,38 @@ public class Temeller : MonoBehaviour
            Debug.Log("Sayýnýn Faktoriyeli : " + result);
         */
 
+        // Dizi (arrays)
+        /*
+        string[] isimler = new string[11];
+        isimler[0] = "Umut Kocaman";
+        isimler[1] = "Umut Kocaman";
+        isimler[2] = "Umut Kocaman";
+        isimler[3] = "Umut Kocaman";
+        isimler[4] = "Umut Kocaman";
+        isimler[5] = "Umut Kocaman";
+        isimler[6] = "Umut Kocaman";
+        isimler[7] = "Umut Kocaman";
+        isimler[8] = "Umut Kocaman";
+        isimler[9] = "Umut Kocaman";
+        isimler[10] = "Umut Kocaman";
+
+        int[] yas = new int[11];
+        yas[0] = 22; yas[1] = 24; yas[2] = 25; yas[3] = 18;
+        yas[4] = 16; yas[5] = 28; yas[6] = 33; yas[7] = 35;
+        yas[8] = 24; yas[9] = 27; yas[10] = 30;
+        for (int i = 0; i < isimler.Length; i++)
+
+        {
+            Debug.Log(isimler[i]);
+            Debug.Log(yas[i]);
+        }
+        */
+
+
+
+
+
+
 
 
 
