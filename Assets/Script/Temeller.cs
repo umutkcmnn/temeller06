@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.AdaptivePerformance;
@@ -376,6 +378,53 @@ public class Temeller : MonoBehaviour
             Debug.Log(yas[i]);
         }
         */
+
+        // Listeler
+        /*
+        List<string> isimler = new List<string>();
+
+        isimler.Add("Umut KOCAMAN");
+        isimler.Add("Umut KOCAMAN1");
+        isimler.Add("Umut KOCAMAN2");
+        isimler.Add("Umut KOCAMAN3");
+        isimler.Add("Umut KOCAMAN4");
+        isimler.Add("Umut KOCAMAN5");
+        isimler.Add("Umut KOCAMAN6");
+
+        foreach (string isim in isimler)
+        {
+            Debug.Log(isim);
+        }
+
+        // Listeden Eleman Çýkarmak Ýçin
+        // Remove
+        
+        isimler.Remove("Umut KOCAMAN5");
+        foreach (string isim in isimler)
+        {
+            Debug.Log(isim);
+        }
+
+        // ÝNSERT (Araya Eklemek)
+
+        isimler.Insert(4, "Mahmut");
+        foreach (string isim in isimler)
+        {
+            Debug.Log(isim);
+        }
+
+        // Contains (Ýçeriyor mu ?)
+
+        if (isimler.Contains("Mahmut"))
+        {
+            Debug.Log("Mahmut Bulundu !!");
+        }
+        else
+        {
+            Debug.Log("Bulunamadý !!");
+        }
+        */
+
 
 
 
